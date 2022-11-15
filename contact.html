@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h3>Contact details</h3>
+    <ul>
+      <li><strong>Email:</strong>fakeemail@gmail.com</li>
+      <li><strong>Phone:</strong>+57 1234567891</li>
+      <li><strong>Twitter:</strong>@faketwitter</li>
+    </ul>
+    <hr>
+    <form action="mailto:info" method="post" enctype="text/plain"><!--This form tag is useful for creating varios kinds of forms, like, input bottons, color pickers, ect. The post attribute send everthing thats is written on the form to an emai and the mail.to.info allows to send an email with the info wirtten in the form. The enctype tells the browser that we are encdign in utf-8-->
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br><!--This tag is used to create an enter your name box-->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br><!--Its important to punt some name on the name attribute to allow the brpwser to identify each type of information.-->
+      <label>Your message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea>
+      <input type="submit" name=""><!--This tag is used to create a submit button-->
+    </form>
+  </body>
+</html>
